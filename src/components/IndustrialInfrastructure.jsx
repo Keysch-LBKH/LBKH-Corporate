@@ -42,10 +42,10 @@ export default function IndustrialInfrastructure() {
 
         <div className="glass-morphism p-10 rounded-2xl border border-burntOrange/40 bg-burntOrange/5 w-full flex flex-col items-center">
           <h2 className="text-2xl font-medium text-white mb-2">Interact with the Liaison</h2>
-          <p className="text-gray-400 mb-6">See how private documentation translates into community outreach in our Prototype.</p>
-          <Link to="/liaison" className="bg-burntOrange hover:bg-[#ff991a] text-carbon font-semibold px-8 py-3 rounded-lg transition-colors flex items-center gap-2 hover:scale-105 transform shadow-lg shadow-burntOrange/20">
+          <p className="text-gray-400 mb-6">See how private documentation translates into community outreach in our live demo.</p>
+          <a href="https://lbkh-liason.pages.dev" target="_blank" rel="noreferrer" className="bg-burntOrange hover:bg-[#ff991a] text-carbon font-semibold px-8 py-3 rounded-lg transition-colors flex items-center gap-2 hover:scale-105 transform shadow-lg shadow-burntOrange/20">
             Launch Liaison Demo <ArrowRight className="w-4 h-4" />
-          </Link>
+          </a>
         </div>
       </main>
     </div>

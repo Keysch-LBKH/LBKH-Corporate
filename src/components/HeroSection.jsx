@@ -37,16 +37,6 @@ export default function HeroSection() {
           </Link>
         </div>
 
-        {/* Bottom Span Card for Pilot Demo */}
-        <Link to="/liaison" className="w-full glass-morphism px-6 py-5 sm:px-8 sm:py-6 rounded-2xl hover:bg-smokyTeal/10 transition-all cursor-pointer group border border-smokyTeal/30 hover:border-cyanGlow/50 flex flex-col sm:flex-row items-center sm:justify-between gap-4">
-          <div className="text-center sm:text-left">
-             <h2 className="text-xl font-medium text-white group-hover:text-cyanGlow transition-colors">Bonner Mill Pilot Showcase</h2>
-             <p className="text-gray-400 mt-1 text-sm leading-relaxed">Interactive AI Liaison demonstrating public data integration and deployment.</p>
-          </div>
-          <button className="whitespace-nowrap px-8 py-2.5 bg-smokyTeal text-carbon font-semibold tracking-wide rounded-lg group-hover:bg-cyanGlow group-hover:scale-105 transition-all shadow-lg border border-transparent">
-            Launch Demo
-          </button>
-        </Link>
       </div>
     </div>
   );

@@ -42,10 +42,10 @@ export default function MunicipalSolutions() {
 
         <div className="glass-morphism p-10 rounded-2xl border border-cyanGlow/40 bg-smokyTeal/5 w-full flex flex-col items-center">
           <h2 className="text-2xl font-medium text-white mb-2">Ready to see it in action?</h2>
-          <p className="text-gray-400 mb-6">Explore the interactive Executive Command Dashboard prototype.</p>
-          <Link to="/executive" className="bg-cyanGlow hover:bg-smokyTeal text-carbon font-semibold px-8 py-3 rounded-lg transition-colors flex items-center gap-2 hover:scale-105 transform shadow-lg shadow-cyanGlow/20">
-            Launch Live Demo <ArrowRight className="w-4 h-4" />
-          </Link>
+          <p className="text-gray-400 mb-6">Explore the interactive AI Liaison demo — live document grounding, community Q&A, and executive dashboard.</p>
+          <a href="https://lbkh-liason.pages.dev" target="_blank" rel="noreferrer" className="bg-cyanGlow hover:bg-smokyTeal text-carbon font-semibold px-8 py-3 rounded-lg transition-colors flex items-center gap-2 hover:scale-105 transform shadow-lg shadow-cyanGlow/20">
+            Launch Liaison Demo <ArrowRight className="w-4 h-4" />
+          </a>
         </div>
       </main>
     </div>
