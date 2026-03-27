@@ -432,7 +432,8 @@ export default function QuizFunnel() {
         body: JSON.stringify({
           ...form,
           score,
-          audience,
+          audience: (audience === AUDIENCE.private || audience === AUDIENCE.state) ? 'Corporate' : 'Public',
+          audience_detail: audience,
           outcome: isStrongFit ? meta.webhookOutcome.strong : meta.webhookOutcome.possible,
           answers,
           timestamp: new Date().toISOString(),
