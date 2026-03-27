@@ -34,7 +34,7 @@ export default function MunicipalSolutions() {
             <p className="text-sm text-gray-400">Auto-categorize constituent concerns into visual heatmaps during live town halls.</p>
           </div>
           <div className="glass-morphism p-8 rounded-2xl border border-smokyTeal/30 text-left hover:border-cyanGlow/50 transition-colors">
-            <Users className="w-8 h-8 text-burntOrange mb-4" />
+            <Users className="w-8 h-8 text-cyanGlow mb-4" />
             <h3 className="text-xl font-medium text-white mb-2">Constituent Trust</h3>
             <p className="text-sm text-gray-400">Provide direct public access to verified documents via embedded chat agents.</p>
           </div>
@@ -42,10 +42,18 @@ export default function MunicipalSolutions() {
 
         <div className="glass-morphism p-10 rounded-2xl border border-cyanGlow/40 bg-smokyTeal/5 w-full flex flex-col items-center">
           <h2 className="text-2xl font-medium text-white mb-2">Ready to see it in action?</h2>
-          <p className="text-gray-400 mb-6">Explore the interactive AI Liaison demo — live document grounding, community Q&A, and executive dashboard.</p>
-          <a href="https://lbkh-liason.pages.dev" target="_blank" rel="noreferrer" className="bg-cyanGlow hover:bg-smokyTeal text-carbon font-semibold px-8 py-3 rounded-lg transition-colors flex items-center gap-2 hover:scale-105 transform shadow-lg shadow-cyanGlow/20">
-            Launch Liaison Demo <ArrowRight className="w-4 h-4" />
-          </a>
+          <p className="text-gray-400 mb-8">Explore the interactive AI Liaison demo — live document grounding, community Q&A, and executive dashboard.</p>
+          <div className="flex flex-col sm:flex-row gap-4 items-center">
+            <a href="https://lbkh-liason.pages.dev" target="_blank" rel="noreferrer" className="bg-cyanGlow hover:bg-smokyTeal text-carbon font-semibold px-8 py-3 rounded-lg transition-colors flex items-center gap-2 hover:scale-105 transform shadow-lg shadow-cyanGlow/20">
+              Launch Liaison Demo <ArrowRight className="w-4 h-4" />
+            </a>
+            <Link
+              to="/quiz"
+              className="border border-cyanGlow/40 hover:border-cyanGlow text-cyanGlow hover:bg-cyanGlow/10 font-semibold px-8 py-3 rounded-lg transition-colors flex items-center gap-2 hover:scale-105 transform"
+            >
+              Is LBKH Liaison right for my city? <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
         </div>
       </main>
     </div>
