@@ -42,10 +42,18 @@ export default function IndustrialInfrastructure() {
 
         <div className="glass-morphism p-10 rounded-2xl border border-cyanGlow/40 bg-smokyTeal/5 w-full flex flex-col items-center">
           <h2 className="text-2xl font-medium text-white mb-2">Interact with the Liaison</h2>
-          <p className="text-gray-400 mb-6">See how private documentation translates into community outreach in our live demo.</p>
-          <a href="https://lbkh-liason.pages.dev" target="_blank" rel="noreferrer" className="bg-cyanGlow hover:bg-smokyTeal text-carbon font-semibold px-8 py-3 rounded-lg transition-colors flex items-center gap-2 hover:scale-105 transform shadow-lg shadow-cyanGlow/20">
-            Launch Liaison Demo <ArrowRight className="w-4 h-4" />
-          </a>
+          <p className="text-gray-400 mb-8">See how private documentation translates into community outreach in our live demo.</p>
+          <div className="flex flex-col sm:flex-row gap-4 items-center">
+            <a href="https://lbkh-liason.pages.dev" target="_blank" rel="noreferrer" className="bg-cyanGlow hover:bg-smokyTeal text-carbon font-semibold px-8 py-3 rounded-lg transition-colors flex items-center gap-2 hover:scale-105 transform shadow-lg shadow-cyanGlow/20">
+              Launch Liaison Demo <ArrowRight className="w-4 h-4" />
+            </a>
+            <Link
+              to="/quiz"
+              className="border border-cyanGlow/40 hover:border-cyanGlow text-cyanGlow hover:bg-cyanGlow/10 font-semibold px-8 py-3 rounded-lg transition-colors flex items-center gap-2 hover:scale-105 transform"
+            >
+              Is LBKH Liaison a fit for my project? <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
         </div>
       </main>
     </div>

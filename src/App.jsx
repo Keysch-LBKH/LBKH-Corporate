@@ -5,6 +5,7 @@ import ExecutiveDashboard from './components/ExecutiveDashboard';
 import ResidentPortal from './components/ResidentPortal';
 import MunicipalSolutions from './components/MunicipalSolutions';
 import IndustrialInfrastructure from './components/IndustrialInfrastructure';
+import QuizFunnel from './components/QuizFunnel';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/legacy-portal" element={<ResidentPortal />} />
         <Route path="/municipal" element={<MunicipalSolutions />} />
         <Route path="/industrial" element={<IndustrialInfrastructure />} />
+        <Route path="/quiz" element={<QuizFunnel />} />
       </Routes>
     </BrowserRouter>
   );
