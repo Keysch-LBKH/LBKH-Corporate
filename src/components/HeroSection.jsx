@@ -29,7 +29,7 @@ export default function HeroSection() {
           </a>
           <Link to="/municipal" className="flex-1 glass-morphism p-8 rounded-2xl hover:bg-smokyTeal/20 transition-all cursor-pointer group border border-smokyTeal/30 hover:border-cyanGlow/50">
             <h2 className="text-2xl font-medium text-white group-hover:text-cyanGlow transition-colors">Municipal</h2>
-            <p className="text-gray-400 mt-2 text-sm leading-relaxed">Marketing integration for regulatory tracking systems.</p>
+            <p className="text-gray-400 mt-2 text-sm leading-relaxed">Compounding clarity through transparent data and community engagement.</p>
           </Link>
           <Link to="/industrial" className="flex-1 glass-morphism p-8 rounded-2xl hover:bg-smokyTeal/20 transition-all cursor-pointer group border border-smokyTeal/30 hover:border-cyanGlow/50">
             <h2 className="text-2xl font-medium text-white group-hover:text-cyanGlow transition-colors">Industrial</h2>

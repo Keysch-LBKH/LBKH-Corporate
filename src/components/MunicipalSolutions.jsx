@@ -25,7 +25,7 @@ export default function MunicipalSolutions() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16 w-full">
           <div className="glass-morphism p-8 rounded-2xl border border-smokyTeal/30 text-left hover:border-cyanGlow/50 transition-colors">
             <ShieldAlert className="w-8 h-8 text-cyanGlow mb-4" />
-            <h3 className="text-xl font-medium text-white mb-2">Regulatory Tracking</h3>
+            <h3 className="text-xl font-medium text-white mb-2">Compounding Clarity</h3>
             <p className="text-sm text-gray-400">Instantly pull zoning laws and DEQ filings using our advanced vector retrieval.</p>
           </div>
           <div className="glass-morphism p-8 rounded-2xl border border-smokyTeal/30 text-left hover:border-cyanGlow/50 transition-colors">
