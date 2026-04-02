@@ -76,10 +76,10 @@ const GRAPH_DATA = {
 // ─── Node config ───────────────────────────────────────────────────────────────
 const NODE_CONFIG = {
   hub:      { color: '#4BE3CF', emissive: '#00A8A8', size: 0.55, ringColor: '#4BE3CF' },
-  doc:      { color: '#7C6FFF', emissive: '#4B3FCC', size: 0.32, ringColor: '#7C6FFF' },
-  topic:    { color: '#00D4FF', emissive: '#007799', size: 0.28, ringColor: '#00D4FF' },
-  question: { color: '#FF9F43', emissive: '#CC6600', size: 0.22, ringColor: '#FF9F43' },
-  answer:   { color: '#26de81', emissive: '#0A8A3A', size: 0.20, ringColor: '#26de81' },
+  doc:      { color: '#C8793A', emissive: '#7A3E10', size: 0.32, ringColor: '#C8793A' },
+  topic:    { color: '#B86A2E', emissive: '#6B3510', size: 0.28, ringColor: '#B86A2E' },
+  question: { color: '#D4894A', emissive: '#8A4A18', size: 0.22, ringColor: '#D4894A' },
+  answer:   { color: '#A05A28', emissive: '#5C2E0A', size: 0.20, ringColor: '#A05A28' },
 };
 
 // ─── Edge line component ───────────────────────────────────────────────────────
@@ -282,7 +282,7 @@ function GraphScene({ onHoverNode }) {
     <>
       <ambientLight intensity={0.4} />
       <pointLight position={[10, 10, 10]} intensity={1.2} color="#4BE3CF" />
-      <pointLight position={[-10, -5, -10]} intensity={0.6} color="#7C6FFF" />
+      <pointLight position={[-10, -5, -10]} intensity={0.6} color="#C8793A" />
       <pointLight position={[0, 15, 0]} intensity={0.4} color="#ffffff" />
       <fog attach="fog" args={['#080C14', 18, 45]} />
 
@@ -324,10 +324,10 @@ function GraphScene({ onHoverNode }) {
 // ─── Legend overlay ────────────────────────────────────────────────────────────
 function GraphLegend() {
   const items = [
-    { color: '#7C6FFF', label: 'Source Document' },
-    { color: '#00D4FF', label: 'Topic Cluster' },
-    { color: '#FF9F43', label: 'Community Question' },
-    { color: '#26de81', label: 'AI Answer' },
+    { color: '#C8793A', label: 'Source Document' },
+    { color: '#B86A2E', label: 'Topic Cluster' },
+    { color: '#D4894A', label: 'Community Question' },
+    { color: '#A05A28', label: 'AI Answer' },
   ];
   return (
     <div style={{
